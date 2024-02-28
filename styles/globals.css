@@ -1,0 +1,194 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    overflow: hidden;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+@font-face {
+    font-family: 'glitch';
+    src: url(../fonts/glitch_font.ttf);
+}
+
+.glitch {
+    font-family: glitch;
+}
+
+@font-face {
+    font-family: 'cyberpunk';
+    src: url(../fonts/cyberpunk_font.ttf);
+}
+
+.cyberpunk {
+    font-family: cyberpunk;
+}
+
+@font-face {
+    font-family: 'gravity';
+    src: url(../fonts/gravity_font.ttf);
+}
+
+.gravity {
+    font-family: gravity;
+}
+
+.video {
+    height: 100%;
+    width: 177.77777778vh; /* 100 * 16 / 9 */
+    min-width: 100%;
+    min-height: 56.25vw; /* 100 * 9 / 16 */
+}
+
+.home{
+    background: url(../public/assets/images/city_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.authBg{
+    background: url(../public/assets/images/auth_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.eventsPageBg{
+    background: url(../public/assets/images/events_page_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.profilePageBg{
+    background: url(../public/assets/images/profile_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.Ter_Green{
+    color:chartreuse
+}
+.Ter_Blue{
+    color:cyan
+}
+.Ter_Gray{
+    color: rgb(167, 166, 166);
+}
+
+@media screen and (max-height:600px) {
+    .authSize{
+      scale: 95%;
+      margin-top: -50px;
+    } 
+  }
+
+  @media screen and (max-height:840px) {
+    .mobileCard{
+      transform: scaleY(80%);
+      margin-top: -10px;
+    } 
+   
+  }
+
+  @media screen and (max-height:730px) {
+    .mobileCard{
+      transform: scaleY(70%);
+      margin-top: -55px;
+    } 
+   
+  }
+
+  @media screen and (max-height:650px) {
+    .mobileCard2{
+      transform: scaleY(80%);
+      margin-top: -10px;
+    } 
+    .mobileCard{
+        
+        margin-top: -95px;
+      } 
+   
+  }
+
+  @media screen and (max-height:600px) {
+    .mobileCard2{
+      transform: scaleY(60%);
+      margin-top: -30px;
+    } 
+    .mobileCard{
+        
+        margin-top: -115px;
+      } 
+   
+  }
+
+  @media screen and (max-height:583px) {
+    .eventMobile{
+      transform: scale(80%);
+
+    }
+   
+  }
+
+.prayukti-input{
+    font-size: 0.8rem;
+    border-radius: 7px;
+    padding: 0.65rem 1.2rem;
+}
+
+
+@media screen and (min-height:742px) {
+  .prizeTable{
+    height: 500px;
+
+  }
+
+}
+
+@media screen and (max-height:742px) and (min-height:650px) {
+  .prizeTable{
+    height: 400px;
+  }
+}
+
+@media screen and (max-height:650px) {
+  .prizeTable{
+    height: 320px;
+  }
+}
+
+@media screen and (max-height:580px) {
+  .eventTextHeight{
+    font-size: 12px;
+  }
+}
+
+.abg{
+  background: url(../public/assets/images/attractions_background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wbg{
+  background: url(../public/assets/images/workshop_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
